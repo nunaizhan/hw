@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 850px;
+}
+.plan {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 240px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+.plan h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.price {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.price .currency {
+    font-size: 24px;
+    color: #333;
+    margin-right: 5px;
+}
+
+.price .amount {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+}
+
+.per-month {
+    font-size: 14px;
+    color: #999;
+    margin-left: 5px;
+}
+.description {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.btn {
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn.free {
+    background-color: #e0b3ff;
+    color: #333;
+}
+
+.btn.standard {
+    background-color: #b3e6ff;
+    color: #333;
+}
+
+.btn.premium {
+    background-color: #ffd9b3;
+    color: #333;
+}
